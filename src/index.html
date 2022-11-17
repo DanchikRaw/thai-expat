@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thai-Expat</title>
+</head>
+<body>
+<main>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col col-50 header__col header__col_left">
+                    <a href="/" class="header__logo">
+                        <img src="images/logo.png" alt="Logo" class="header__logo-img">
+                        <span class="header__slogan">Дом там, где свои</span>
+                    </a>
+                    <nav class="header__nav">
+                        <a class="header__nav-item" href="/">Главная</a>
+                        <a class="header__nav-item" href="/">Статьи</a>
+                        <a class="header__nav-item" href="https://forum.thai-expat.org/">Форум</a>
+                    </nav>
+                </div>
+                <div class="col col-50 header__col header__col_right">
+                    <div class="header__social-wrap">
+                        <a class="header__social-link" href="/">
+                            <img class="header__social" src="images/inst.png" alt="instagram">
+                        </a>
+                        <a href="/">
+                            <img class="header__social" src="images/fb.png" alt="instagram">
+                        </a>
+                        <a href="/">
+                            <img class="header__social" src="images/vk.png" alt="instagram">
+                        </a>
+                        <a href="/">
+                            <img class="header__social" src="images/telegram.png" alt="instagram">
+                        </a>
+                    </div>
+                    <form class="header__search" action="https://forum.thai-expat.org/">
+                        <input placeholder="Поиск по информации..." class="header__search-input" type="text" name="search">
+                        <button class="header__search-btn"><img class="header__search-ico" src="images/search.png" alt="search"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="swiper slider__img-wrap mainSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/slider/slide.jpg" alt="slide" class="slider__slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/slider/slide_2.jpg" alt="slide" class="slider__slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/slider/slide_3.jpg" alt="slide" class="slider__slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/slider/slide_4.jpg" alt="slide" class="slider__slide">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/slider/slide_5.jpg" alt="slide" class="slider__slide">
+                </div>
+            </div>
+        </div>
+        <div class="slider__content">
+            <div class="container">
+                <div class="slider__inner-wrap">
+                    <div class="row">
+                        <div class="col col-50 slider__col_info">
+                            <h4 class="slider__title">Дом там, где свои</h4>
+                            <p class="slider__about">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: курс на социально-ориентированный национальный ...</p>
+                            <div class="slider__btn-wrap">
+                                <a class="slider__btn slider__news" href="/"><img src="images/telegram.png" alt="" class="slider__ico">Свои в телеграм</a>
+                                <a class="slider__btn slider__forum" href="https://forum.thai-expat.org/">Форум</a>
+                            </div>
+                        </div>
+                    </div>
+<!--                    <div class="row row_right">-->
+<!--                        <div class="col col-50">-->
+<!--                            <div class="swiper weatherSwiper">-->
+<!--                                <div class="swiper-wrapper">-->
+<!--                                    <div class="swiper-slide">-->
+<!--                                        <div class="slider__weather-item">-->
+<!--                                            <div class="slider__weather-name">Бангкок</div>-->
+<!--                                            <div class="slider__weather_temp-wrap">-->
+<!--                                                <img src="images/sun.png" alt="sun" class="slider__weather-ico">-->
+<!--                                                <div class="slider__weather-temp">+25°</div>-->
+<!--                                            </div>-->
+<!--                                            <div class="slider__weather-info">-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Ветер</span>-->
+<!--                                                    <span>3м/с</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Влажность</span>-->
+<!--                                                    <span>85%</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Давление</span>-->
+<!--                                                    <span>755</span>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="swiper-slide">-->
+<!--                                        <div class="slider__weather-item">-->
+<!--                                            <div class="slider__weather-name">Бангкок</div>-->
+<!--                                            <div class="slider__weather_temp-wrap">-->
+<!--                                                <img src="images/sun.png" alt="sun" class="slider__weather-ico">-->
+<!--                                                <div class="slider__weather-temp">+25°</div>-->
+<!--                                            </div>-->
+<!--                                            <div class="slider__weather-info">-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Ветер</span>-->
+<!--                                                    <span>3м/с</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Влажность</span>-->
+<!--                                                    <span>85%</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Давление</span>-->
+<!--                                                    <span>755</span>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="swiper-slide">-->
+<!--                                        <div class="slider__weather-item">-->
+<!--                                            <div class="slider__weather-name">Бангкок</div>-->
+<!--                                            <div class="slider__weather_temp-wrap">-->
+<!--                                                <img src="images/sun.png" alt="sun" class="slider__weather-ico">-->
+<!--                                                <div class="slider__weather-temp">+25°</div>-->
+<!--                                            </div>-->
+<!--                                            <div class="slider__weather-info">-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Ветер</span>-->
+<!--                                                    <span>3м/с</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Влажность</span>-->
+<!--                                                    <span>85%</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Давление</span>-->
+<!--                                                    <span>755</span>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="swiper-slide">-->
+<!--                                        <div class="slider__weather-item">-->
+<!--                                            <div class="slider__weather-name">Бангкок</div>-->
+<!--                                            <div class="slider__weather_temp-wrap">-->
+<!--                                                <img src="images/sun.png" alt="sun" class="slider__weather-ico">-->
+<!--                                                <div class="slider__weather-temp">+25°</div>-->
+<!--                                            </div>-->
+<!--                                            <div class="slider__weather-info">-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Ветер</span>-->
+<!--                                                    <span>3м/с</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Влажность</span>-->
+<!--                                                    <span>85%</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Давление</span>-->
+<!--                                                    <span>755</span>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="swiper-slide">-->
+<!--                                        <div class="slider__weather-item">-->
+<!--                                            <div class="slider__weather-name">Бангкок</div>-->
+<!--                                            <div class="slider__weather_temp-wrap">-->
+<!--                                                <img src="images/sun.png" alt="sun" class="slider__weather-ico">-->
+<!--                                                <div class="slider__weather-temp">+25°</div>-->
+<!--                                            </div>-->
+<!--                                            <div class="slider__weather-info">-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Ветер</span>-->
+<!--                                                    <span>3м/с</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Влажность</span>-->
+<!--                                                    <span>85%</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="slider__weather-info-item">-->
+<!--                                                    <span>Давление</span>-->
+<!--                                                    <span>755</span>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row slider__control row_a_center">-->
+<!--                        <div class="col col-50">-->
+<!--                            <div class="arrow__wrap">-->
+<!--                                <img src="images/arrow_white.svg" alt="prev" class="arrow__btn arrow__prev weatherPrev">-->
+<!--                                <img src="images/arrow_white.svg" alt="newt" class="arrow__btn arrow__newt weatherNext">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col col-50">-->
+<!--                            <div class="weatherPagination"></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="categories">
+        <div class="container">
+            <div class="row categories__row">
+                <div class="col col-66 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/1.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Визы</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col-33 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/2.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Медецина</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row categories__row">
+                <div class="col col-33 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/3.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Аренда транспорта</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col-66 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/4.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Аренда жилья</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row categories__row">
+                <div class="col col-66 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/5.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Обучение и курсы</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col-33 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/6.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Школы, садики, няни</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row categories__row">
+                <div class="col col-33 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/7.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Обмен валют</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col-66 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/8.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Beauty-услуги</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row categories__row">
+                <div class="col col-33 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/9.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Лучшие места</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col-33 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/10.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Вебкамеры</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col-33 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/11.png" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Мероприятия</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row categories__row">
+                <div class="col col-100 categories__col">
+                    <a class="categories__link" href="#">
+                        <img src="images/categories/12.jpg" alt="air" class="categories__img">
+                        <div class="categories__inner">
+                            <div class="categories__name">Форум</div>
+                            <div class="arrow-link">
+                                <span>Перейти</span>
+                                <img src="images/arrow_white.svg" alt="arrow" class="arrow-link__img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <div class="news__section-title">Последние новости <b>Таиланда</b></div>
+            <div class="swiper newsSwiper news__swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide news__slide">
+                        <a href="#" class="news__link">
+                            <img src="images/news.png" alt="news" class="news__img">
+                            <div class="news__text">
+                                <div class="news__title">Название статьи</div>
+                                <div class="news__desc">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: курс на социально-ориентированный национальный ...</div>
+                                <div class="news__footer">
+                                    <span class="news__link-txt">Читать...</span>
+                                    <p class="news__date">02.10.2022</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide news__slide">
+                        <a href="#" class="news__link">
+                            <img src="images/news.png" alt="news" class="news__img">
+                            <div class="news__text">
+                                <div class="news__title">Название статьи</div>
+                                <div class="news__desc">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: курс на социально-ориентированный национальный ...</div>
+                                <div class="news__footer">
+                                    <span class="news__link-txt">Читать...</span>
+                                    <p class="news__date">02.10.2022</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide news__slide">
+                        <a href="#" class="news__link">
+                            <img src="images/news.png" alt="news" class="news__img">
+                            <div class="news__text">
+                                <div class="news__title">Название статьи</div>
+                                <div class="news__desc">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: курс на социально-ориентированный национальный ...</div>
+                                <div class="news__footer">
+                                    <span class="news__link-txt">Читать...</span>
+                                    <p class="news__date">02.10.2022</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide news__slide">
+                        <a href="#" class="news__link">
+                            <img src="images/news.png" alt="news" class="news__img">
+                            <div class="news__text">
+                                <div class="news__title">Название статьи</div>
+                                <div class="news__desc">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: курс на социально-ориентированный национальный ...</div>
+                                <div class="news__footer">
+                                    <span class="news__link-txt">Читать...</span>
+                                    <p class="news__date">02.10.2022</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide news__slide">
+                        <a href="#" class="news__link">
+                            <img src="images/news.png" alt="news" class="news__img">
+                            <div class="news__text">
+                                <div class="news__title">Название статьи</div>
+                                <div class="news__desc">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: курс на социально-ориентированный национальный ...</div>
+                                <div class="news__footer">
+                                    <span class="news__link-txt">Читать...</span>
+                                    <p class="news__date">02.10.2022</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="news__control">
+                <div class="arrow__wrap">
+                    <img src="images/arrow.svg" alt="prev" class="arrow__btn arrow__prev newsPrev">
+                    <img src="images/arrow.svg" alt="newt" class="arrow__btn arrow__newt newsNext">
+                </div>
+                <div class="newsPagination"></div>
+            </div>
+        </div>
+    </section>
+    <section class="forum">
+        <div class="container">
+            <div class="forum__section-title"><b>Форум</b> последние сообщения</div>
+            <div class="swiper forumSwiper forum__swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="forum__item">
+                            <img src="images/forum.png" alt="forum" class="forum__img">
+                            <div class="forum__date">10.11.2022</div>
+                            <div class="forum__title">Название статьи</div>
+                            <div class="forum__text">Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! Слышала про нововведения с 2017 года, смогу ли я полететь в Тайланд сейчас, если срок действия паспорта истекает в апреле? Т.е. ...Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! .....</div>
+                            <div class="forum__link-txt">Читать...</div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="forum__item">
+                            <img src="images/forum.png" alt="forum" class="forum__img">
+                            <div class="forum__date">10.11.2022</div>
+                            <div class="forum__title">Название статьи</div>
+                            <div class="forum__text">Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! Слышала про нововведения с 2017 года, смогу ли я полететь в Тайланд сейчас, если срок действия паспорта истекает в апреле? Т.е. ...Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! .....</div>
+                            <div class="forum__link-txt">Читать...</div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="forum__item">
+                            <img src="images/forum.png" alt="forum" class="forum__img">
+                            <div class="forum__date">10.11.2022</div>
+                            <div class="forum__title">Название статьи</div>
+                            <div class="forum__text">Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! Слышала про нововведения с 2017 года, смогу ли я полететь в Тайланд сейчас, если срок действия паспорта истекает в апреле? Т.е. ...Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! .....</div>
+                            <div class="forum__link-txt">Читать...</div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="forum__item">
+                            <img src="images/forum.png" alt="forum" class="forum__img">
+                            <div class="forum__date">10.11.2022</div>
+                            <div class="forum__title">Название статьи</div>
+                            <div class="forum__text">Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! Слышала про нововведения с 2017 года, смогу ли я полететь в Тайланд сейчас, если срок действия паспорта истекает в апреле? Т.е. ...Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! .....</div>
+                            <div class="forum__link-txt">Читать...</div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="forum__item">
+                            <img src="images/forum.png" alt="forum" class="forum__img">
+                            <div class="forum__date">10.11.2022</div>
+                            <div class="forum__title">Название статьи</div>
+                            <div class="forum__text">Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! Слышала про нововведения с 2017 года, смогу ли я полететь в Тайланд сейчас, если срок действия паспорта истекает в апреле? Т.е. ...Можно ли лететь в тайланд в цвете последних событий на Филиппинах говорят ураган идет на вьетнам и тайланд не далеко???Здравствуйте! .....</div>
+                            <div class="forum__link-txt">Читать...</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="forum__control">
+                <div class="arrow__wrap">
+                    <img src="images/arrow.svg" alt="prev" class="arrow__btn arrow__prev forumPrev">
+                    <img src="images/arrow.svg" alt="newt" class="arrow__btn arrow__newt forumNext">
+                </div>
+                <div class="forumPagination"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__up">
+                <div class="row">
+                    <div class="col col-25">
+                        <div class="footer__col footer__left">
+                            <div class="footer__logo-wrap">
+                                <img src="images/logo.png" alt="logo" class="footer__logo">
+                                <div class="footer__logo-text">Дом там, где свои</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-50">
+                        <div class="footer__col">
+                            <div class="footer__text">Thai-Expat</div>
+                        </div>
+                    </div>
+                    <div class="col col-25">
+                        <div class="footer__col footer__right">
+                            <div class="footer__social">
+                                <a class="footer__social" href="/">
+                                    <img src="images/fb_w.png" alt="" class="footer__social-ico">
+                                </a>
+                                <a class="footer__social" href="/">
+                                    <img src="images/inst_w.png" alt="" class="footer__social-ico">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__down">
+                <div class="footer__copy">Copyright © 2022.</div>
+            </div>
+        </div>
+    </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
